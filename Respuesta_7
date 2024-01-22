@@ -1,0 +1,11 @@
+function evaluateNumber() {
+    var num = 20;
+    num = prompt("Escribe un numero: ");
+    if(num=0){
+        window.print("Su numero es 0");
+    }else if(num>=0){
+        window.print("Su numero es positivo");
+    }else{
+        window.print("Su numero es negativo");
+    }   
+}
