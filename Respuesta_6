@@ -1,0 +1,6 @@
+function incrementAge() {
+    var edad;
+    edad = prompt("Escribe tu edad: ");
+    edad=edad+5;
+    Window.print(edad);
+}
