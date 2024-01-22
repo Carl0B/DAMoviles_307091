@@ -1,0 +1,5 @@
+function generateGreeting() {
+    var nombre = 20;
+    nombre = prompt("¿Como te llamas? ");
+    window.print("Hola "+nombre+", ¿como te va el dia?");
+}
